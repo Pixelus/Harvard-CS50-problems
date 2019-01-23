@@ -29,7 +29,7 @@ int main(void)
         // Add digits of product > 10
         if (second_last_digit < 5)
         {
-            digit = second_last_digit *= 2; 
+            digit = second_last_digit * 2; 
             count++;
         }
         else
