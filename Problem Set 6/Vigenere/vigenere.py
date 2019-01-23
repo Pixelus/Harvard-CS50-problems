@@ -11,8 +11,6 @@ def main():
     # Check argument to make sure all characters are alphabetical
     if sys.argv[1].isalpha() == False:
         sys.exit("Usage: python sys.argv[1] keyword")
-        #else:
-            #keyword = sys.argv[1]
         
     # Prompt user for plaintext
     plaintext = get_string("plaintext: ")
